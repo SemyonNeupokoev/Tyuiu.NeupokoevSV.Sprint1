@@ -1,11 +1,11 @@
 ﻿using tyuiu.cources.programming.interfaces.Sprint1;
 namespace Tyuiu.NeupokoevSV.Sprint1.Task0.V25.Lib
 {
-    public class DataService : ISprint1Task0V25
+    public class DataService : ISprint1Task0V0
     {
         public double Calculate()
         {
-            return (30 / 6 - 4) * 3;
+            return 10 / ( 2 + 3);
         }
     }
 }

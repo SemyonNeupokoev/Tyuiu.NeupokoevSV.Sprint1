@@ -9,7 +9,7 @@ internal class Program
         Console.WriteLine("* Спринт #1                                                               *");
         Console.WriteLine("* Тема: Базовые навыки работы в С#                                        *");
         Console.WriteLine("* Задание #0                                                              *");
-        Console.WriteLine("* Вариант #25                                                              *");
+        Console.WriteLine("* Вариант #25                                                             *");
         Console.WriteLine("* Выполнил: Неупокоев С. В.| ПИНб-25-1                                    *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -24,8 +24,5 @@ internal class Program
         Console.WriteLine("***************************************************************************");
         Console.WriteLine(ds.Calculate());
         Console.ReadLine();
-
-
-
     }
 }

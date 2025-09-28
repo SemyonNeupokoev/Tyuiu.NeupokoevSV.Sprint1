@@ -8,10 +8,12 @@ namespace Tyuiu.NeupokoevSV.Sprint1.Task6.V2.Test
         [TestMethod]
         public void TestMethod1()
         {
+            DataService ds = new DataService();
             string s = "Hello world";
-            string v = "Hello";
-            bool res = s.Contains(v);
-            Assert.IsTrue(res);
+
+            bool res = ds.CheckHello(s);
+            bool wait = true;
+            Assert.AreEqual(wait, res);
         }
     }
 }

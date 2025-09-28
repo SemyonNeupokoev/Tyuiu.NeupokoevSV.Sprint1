@@ -5,8 +5,7 @@ namespace Tyuiu.NeupokoevSV.Sprint1.Task6.V2.Lib
     {
         public bool CheckHello(string value)
         {
-            string t;
-            if (t.Contains(value))
+            if (value.Contains("Hello"))
             {
                 return true;
             }
@@ -14,7 +13,7 @@ namespace Tyuiu.NeupokoevSV.Sprint1.Task6.V2.Lib
             {
                 return false;
             }
-                       
-        }
+
+        }  
     }
 }

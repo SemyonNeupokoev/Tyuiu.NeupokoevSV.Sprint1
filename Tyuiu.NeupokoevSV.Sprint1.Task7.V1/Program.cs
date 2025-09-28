@@ -2,7 +2,7 @@
 internal class Program
 {
     private static void Main(string[] args)
-    {
+    { 
         DataService ds = new DataService();
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
